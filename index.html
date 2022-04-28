@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body style="background-image: url('24ID.gif'); background-size: cover;">
+<div class="row">
+<h1>Привет, ты попал из своего мира в морской бой и чтобы выжить, тебе придётся уничтожить все вражеские карабли на карте.</h1>
+<h2 style="padding-top: 100px;">Карта устроена так, что когда ты стреляешь в карте, взрыв появляется в реальности. А карта сама оформлена как таблица 10х10. У тебя есть всего 40 выстрелов для уничтожения всех караблей. Удачи!</h2>
+
+
+<div class="row" style="height: 100px; width: 500px; position: absolute; top: 350px;">
+	<div class="border" style="height: 100px; width: 100px; background: yellow;"></div>
+	<div class="border" style="height: 100px; width: 100px; background: yellow;"></div>
+	<div class="border" style="height: 100px; width: 100px; background: yellow;"></div>
+	<div class="border" style="height: 100px; width: 100px; background: yellow;"></div>
+</div>
+<h2 style="padding-left: 405px; padding-top: 85px;"> - авианосец(одна штука)</h2>
+<div class="row" style="height: 100px; width: 400px; position: absolute; top: 500px;">
+	<div class="border" style="height: 100px; width: 100px; background: blue;"></div>
+	<div class="border" style="height: 100px; width: 100px; background: blue;"></div>
+	<div class="border" style="height: 100px; width: 100px; background: blue;"></div>
+</div>
+<h2 style="padding-left: 305px; padding-top: 105px;"> - крейсер(две штуки)</h2>
+<div class="row" style="height: 100px; width: 300px; position: absolute; top: 650px;">
+	<div class="border" style="height: 100px; width: 100px; background: red;"></div>
+	<div class="border" style="height: 100px; width: 100px; background: red;"></div>
+</div>
+<h2 style="padding-left: 205px; padding-top: 105px;"> - эсминец(три штуки)</h2>
+<div class="row" style="height: 100px; width: 200px; position: absolute; top: 800px;">
+	<div class="border" style="height: 100px; width: 100px; background: green;"></div>
+</div>
+<h2 style="padding-left: 105px; padding-top: 105px;"> - торпедный катер (четыре штуки)</h2>
+
+
+<h1 style="padding-top: 100px;">Выстрелов осталось <span class="bullet">40</span></h1>
+
+
+
+
+
+
+<div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+
+</div>
+<div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top:  100px;">
+	<h4>1</h4>
+</div>
+<div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+	<h4>2</h4>
+    </div>
+    <div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+    	<h4>3</h4>
+    </div>
+    <div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+    	<h4>4</h4>
+    </div>
+    <div class="col-1 px-5  py-3 bg-warning text-center border" style="margin-top: 100px;">
+    	<h4>5</h4>
+    </div>
+    <div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+    	<h4>6</h4>
+    </div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+				<h4>7</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+				<h4>8</h4>
+			</div>
+			<div class="col-1 px-5 py-3  bg-warning text-center border" style="margin-top: 100px;">
+				<h4>9</h4>
+			</div>
+			<div class="col-1 px-5  py-3 bg-warning text-center border" style="margin-top: 100px;">
+				<h4>10</h4>
+			</div>
+		</div>
+		<!--Линия А-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 bg-warning text-center border">
+				<h4>A</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border ship">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border ship">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5  bg border huge">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border huge">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border huge">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border huge">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+		    </div>
+		</div>
+		<!--Линия B-->
+		<div class="row">
+			<div class="col-1  px-5 py-5 bg-warning text-center border">
+				<h4>B</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+			
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bang bg border ">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border mini">
+
+			</div>
+		</div>
+		<!--Линия C-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 bg-warning text-center border">
+				<h4>C</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5  bg border mini">
+				
+			</div>
+			<div class="col-1 px-5 py-5  bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border big">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border ship">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+			</div>	
+		</div>
+		<!--Линия D-->
+		<div class="row">
+			<div class="col-1 px-5 py-5  bg-warning text-center border">
+				<h4>D</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang ">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border big">
+			
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border ship">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+			</div>
+		</div>
+		<!--Линия E-->
+		<div class="row">
+			<div class="col-1 px-5 py-5  bg-warning text-center border">
+				<h4>E</h4>
+			</div>
+			<div class="col-1 px-5 py-5  bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5  bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5  bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5  bg border big">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border  bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border mini">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+			</div>
+		</div>
+		<!--Линия F-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 bg-warning text-center border">
+				<h4>F</h4>
+			</div>
+			<div class="col-1 px-5 py-5 bg border mini">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+			</div>
+		</div>
+			<!--Линия A-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 bg-warning text-center border">
+				<h4>G</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border big">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+					
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+		</div>
+		<!--Линия B-->
+		<div class="row">
+			<div class="col-1  px-5 py-5 bg-warning text-center border">
+				<h4>H</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+			
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border big">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border ship">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border ship">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+		</div>
+		<!--Линия C-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 bg-warning text-center border">
+				<h4>I</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5  bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5  bg border bang">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border big">
+				
+			</div>
+			<div class="col-1 px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>	
+		</div>
+		<!--Линия D-->
+		<div class="row">
+			<div class="col-1 px-5 py-5 bg-warning text-center border">
+				<h4>J</h4>
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang ">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+			<div class="col-1  px-5 py-5 bg border bang">
+				
+			</div>
+		</div>
+		</div>
+	</div>
+
+
+
+
+<script type="text/javascript">
+	let bang = document.querySelectorAll('.bang')//взрыв
+	let huge = document.querySelectorAll('.huge')//авианосец
+	let big = document.querySelectorAll('.big')//крейсер
+	let ship = document.querySelectorAll('.ship')//эсминец
+	let mini = document.querySelectorAll('.mini')//торпедный катер
+	let bullet1 = document.querySelector('.bullet')//выстрелы
+	let bullet2 = 40
+	let death = 0
+
+	
+	
+	for(let i=0; i<80; i=i+1) {
+		bang[i].onclick = function() {
+		bang[i].style.backgroundImage = "url(bang.gif)"
+		bang[i].style.backgroundSize = "100% 100%"
+		bullet2 = bullet2 -1
+		bullet1.innerHTML = bullet2
+		if (bullet2<=0) {
+			alert("Ты использовал все снаряды! Теперь мы обречены на погибель!")
+		}
+		}
+	}
+	for(let i=0; i<4; i=i+1) {
+		huge[i].onclick = function() {
+		huge[i].style.background = "yellow"
+		huge[i].style.backgroundImage = "url(bang.gif)"
+		huge[i].style.backgroundSize = "100% 100%"
+		bullet2 = bullet2 -1
+		bullet1.innerHTML = bullet2
+		death = death +1
+		if (bullet2<=0) {
+			alert("Ты использовал все снаряды! Теперь мы обречены на погибель!")
+		}
+		if (death==20) {
+			alert("Ты уничтожил все вражеские корабли! Теперь ты сможешь вернуться домой!")
+		}
+		}
+	}
+	for(let i=0; i<6; i=i+1) {
+		big[i].onclick = function() {
+		big[i].style.background = "blue"
+		big[i].style.backgroundImage = "url(bang.gif)"
+		big[i].style.backgroundSize = "100% 100%"
+		bullet2 = bullet2 -1
+		bullet1.innerHTML = bullet2
+		death = death +1
+		if (bullet2<=0) {
+			alert("Ты использовал все снаряды! Теперь мы обречены на погибель!")
+		}
+		if (death==20) {
+			alert("Ты уничтожил все вражеские корабли! Теперь ты сможешь вернуться домой!")
+		}
+		}
+	}
+	for(let i=0; i<6; i=i+1) {
+		ship[i].onclick = function() {
+		ship[i].style.background = "red"
+		ship[i].style.backgroundImage = "url(bang.gif)"
+		ship[i].style.backgroundSize = "100% 100%"
+		bullet2 = bullet2 -1
+		bullet1.innerHTML = bullet2
+		death = death +1
+		if (bullet2<=0) {
+			alert("Ты использовал все снаряды! Теперь мы обречены на погибель!")
+		}
+		if (death==20) {
+			alert("Ты уничтожил все вражеские корабли! Теперь ты сможешь вернуться домой!")
+		}
+		}
+	}
+	for(let i=0; i<4; i=i+1) {
+		mini[i].onclick = function() {
+		mini[i].style.background = "green"
+		mini[i].style.backgroundImage = "url(bang.gif)"
+		mini[i].style.backgroundSize = "100% 100%"
+		bullet2 = bullet2 -1
+		bullet1.innerHTML = bullet2
+		death = death +1
+		if (bullet2<=0) {
+			alert("Ты использовал все снаряды! Теперь мы обречены на погибель!")
+		}
+		if (death==20) {
+			alert("Ты уничтожил все вражеские корабли! Теперь ты сможешь вернуться домой!")
+		}
+		}
+	} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+</script>
+</body>
+</html>
